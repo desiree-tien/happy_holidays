@@ -17,32 +17,32 @@ img {
         background-image:none;
       }
 body {
-    background-color:white
+    background-color:lightblue
 }
 .wrapper {
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 20px;
 	border-style: solid;
-	border-color: green;
+	border-color: white;
 	border-width: 10px;
 	border-radius: 15px;
-    background-color:white
+    background-color:lightblue
 }
 
 .wrapper2 {
     max-width: 1000px;
-    height: 800px;
+    height: 900px;
 	margin: auto;
 	margin-top: 20px;
 	border-style: solid;
-	border-color: green;
+	border-color: white;
 	border-width: 10px;
 	border-radius: 15px;
-    background-color:white
+    background-color:lightblue
 }
 .container {
-    background-color: white
+    background-color: lightblue;
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 10px;
@@ -56,13 +56,13 @@ body {
   justify-content: space-between;
   font-family: 'Dancing Script', cursive;
   font-size: 100px;
-  color: green;
+  color: white;
 }
 
 #headStyle {
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
-    color: green;
+    color: white;
 }
 
 
