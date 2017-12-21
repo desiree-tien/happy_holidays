@@ -19,6 +19,7 @@ img {
 body {
     background-color:lightblue
 }
+
 .wrapper {
 	max-width: 1200px;
 	margin: auto;
@@ -32,7 +33,7 @@ body {
 
 .wrapper2 {
     max-width: 1000px;
-    height: 900px;
+    height: 1000px;
 	margin: auto;
 	margin-top: 20px;
 	border-style: solid;
@@ -130,6 +131,13 @@ text-align: center;
     animation-delay: 3.2s;
     text-align: center;
     }
+
+    .fade-in.sevn {
+        -webkit-animation-delay: 3.7s;
+        -moz-animation-delay: 3.7s;
+        animation-delay: 3.7s;
+        text-align: center;
+        }
 #imageStyle {
 	height: 300px;
 }
