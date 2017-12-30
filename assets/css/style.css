@@ -11,57 +11,58 @@ clear: both;
 }
 
 img {
-    border-radius:25px;
+	border-radius:25px;
+	
 }
 .carousel-control.right, .carousel-control.left {
         background-image:none;
       }
 body {
-    background-color:lightblue
+    background-color:navy
 }
 
 .wrapper {
-	max-width: 1200px;
-	margin: auto;
-	margin-top: 20px;
+	float:fixed;
+	overflow: auto;
+	margin-left:auto;
+	margin-right:auto;
 	border-style: solid;
 	border-color: white;
 	border-width: 10px;
 	border-radius: 15px;
-    background-color:lightblue
+	border-style: double;
+    background-color:navy;
 }
 
 .wrapper2 {
-    max-width: 1000px;
-    height: 1000px;
+	resize: both;
+    overflow: auto;
 	margin: auto;
 	margin-top: 20px;
 	border-style: solid;
 	border-color: white;
 	border-width: 10px;
 	border-radius: 15px;
-    background-color:lightblue
+	border-style: double;
+    background-color:navy;
 }
 .container {
-    background-color: lightblue;
+    background-color: navy;
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 10px;
 	height: auto;
 	padding: 5px;
-/*	border-style: solid;
-	border-color: black;
-	border-width: 5px;*/
 	text-align: center;
 	display: flex;
   justify-content: space-between;
-  font-family: 'Dancing Script', cursive;
-  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 80px;
   color: white;
 }
 
 #headStyle {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 100px;
     color: white;
 }
@@ -139,5 +140,13 @@ text-align: center;
         text-align: center;
         }
 #imageStyle {
+	poistion:relative;
 	height: 300px;
+	overflow:auto;
 }
+
+
+@media screen {
+	clear: left;
+}
+
