@@ -12,7 +12,6 @@ img {
 .carousel-control.right, .carousel-control.left {
         background-image:none;
 	  }
-
 p {
 	text-align: center;
 	color:white;
@@ -22,11 +21,11 @@ h3 {
 	text-align: center;
 	color:white;
 	font-size:100px;
-	font-family:'Indie Flower', cursive;
 }
  
 body {
-    background-color:navy
+	justify-content: center;
+	background-color:navy
 }
 
 .wrapper {
